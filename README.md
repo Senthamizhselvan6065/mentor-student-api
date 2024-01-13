@@ -1,4 +1,4 @@
-<h3> Assigning Mentor and Students with Database</h3>
+# Assigning Mentor and Students with Database
 
 
 1. Write API to create Mentor
@@ -13,9 +13,9 @@
 
 -------------------------------------------------
 
-### BASE_URL - <a>http://utl/api/v1/</a>
+## BASE_URL - <a>http://utl/api/v1/</a>
 
-## Mentor's Api
+# Mentors Api's
 
 <pre>GET || GET ALL MENTORS : <a href="https://URL/api/v1/mentors">/mentors </a></pre>
 
@@ -25,7 +25,7 @@
 
 --------------------------------------------------
 
-# Student Api's
+# Students Api's
 
 <pre>GET || GET ALL STUDENTS : <a href="https://URL/api/v1/students"> /students </a></pre>
 
@@ -33,20 +33,20 @@
 
 <b>To not assign mentor and get list of students </b>
 
-<pre>GET          <a href="https://URL/api/v1/no-mentors">/no-mentors</a></pre>
+<pre>GET  :  <a href="https://URL/api/v1/no-mentors">/no-mentors</a></pre>
 
 <b> To Assign or Change Mentor for particular student </b>
   > Pass Mentor ID in request Body and Pass Student ID in request Params
 
-<pre>PATCH        <a href="https://URL/api/v1/assign-mentor/">/assign-mentor/:student-id</a> </pre>
+<pre>PATCH  :   <a href="https://URL/api/v1/assign-mentor/">/assign-mentor/:student-id</a> </pre>
 
 <b> To Assign mentor for multiple students </b>
   > Pass Mentor ID and Student ID as list in request body
  
-<pre>PATCH        <a href="https://URL/api/v1/assign-mentor-students">/assign-mentor-students</a> </pre>
+<pre>PATCH  :  <a href="https://URL/api/v1/assign-mentor-students">/assign-mentor-students</a> </pre>
 
 <b> To get all students of particular Mentor
 
-<pre>GET          <a href="https://URL/api/v1/mentor-students/:mentorId">/mentor-students/:mentorId </a></pre>
+<pre>GET  :  <a href="https://URL/api/v1/mentor-students/:mentorId">/mentor-students/:mentorId </a></pre>
 
 ------------------------------------------------
